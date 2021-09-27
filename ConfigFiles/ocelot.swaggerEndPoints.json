@@ -1,0 +1,74 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "Solutions",
+      "Config": [
+        {
+          "Name": "Solution API",
+          "Version": "v1",
+          "URl": "http://localhost:5005/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Comments",
+      "Config": [
+        {
+          "Name": "Comment API",
+          "Version": "v1",
+          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Users",
+      "Config": [
+        {
+          "Name": "User API",
+          "Version": "v1",
+          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Authentication",
+      "Config": [
+        {
+          "Name": "Authentication API",
+          "Version": "v1",
+          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Blog",
+      "Config": [
+        {
+          "Name": "Blog API",
+          "Version": "v1",
+          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Followers",
+      "Config": [
+        {
+          "Name": "Follower API",
+          "Version": "v1",
+          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Achievements",
+      "Config": [
+        {
+          "Name": "Achievement API",
+          "Version": "v1",
+          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
