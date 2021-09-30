@@ -2,11 +2,9 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/Users",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Users}"
         }
       ],
       "UpstreamPathTemplate": "/Users",
@@ -15,11 +13,9 @@
     },
     {
       "DownstreamPathTemplate": "/Users/{everything}",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Users}"
         }
       ],
       "UpstreamPathTemplate": "/Users/{everything}",

@@ -2,11 +2,9 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/Authentication",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Authentication}"
         }
       ],
       "UpstreamPathTemplate": "/Authentication",
@@ -15,11 +13,9 @@
     },
     {
       "DownstreamPathTemplate": "/Authentication/{everything}",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Authentication}"
         }
       ],
       "UpstreamPathTemplate": "/Authentication/{everything}",

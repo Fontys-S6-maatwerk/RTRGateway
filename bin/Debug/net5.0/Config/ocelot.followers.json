@@ -2,11 +2,9 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/Followers",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Followers}"
         }
       ],
       "UpstreamPathTemplate": "/Followers",
@@ -15,11 +13,9 @@
     },
     {
       "DownstreamPathTemplate": "/Followers/{everything}",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Followers}"
         }
       ],
       "UpstreamPathTemplate": "/Followers/{everything}",

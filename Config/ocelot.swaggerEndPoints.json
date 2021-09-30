@@ -6,7 +6,7 @@
         {
           "Name": "Solution API",
           "Version": "v1",
-          "URl": "http://localhost:5005/swagger/v1/swagger.json"
+          "Url": "http://localhost:5005/swagger/v1/swagger.json"
         }
       ]
     },
@@ -16,7 +16,7 @@
         {
           "Name": "Comment API",
           "Version": "v1",
-          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+          "Url": "http://localhost:9999/swagger/v1/swagger.json"
         }
       ]
     },
@@ -26,7 +26,7 @@
         {
           "Name": "User API",
           "Version": "v1",
-          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+          "Url": "http://localhost:9999/swagger/v1/swagger.json"
         }
       ]
     },
@@ -36,7 +36,7 @@
         {
           "Name": "Authentication API",
           "Version": "v1",
-          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+          "Url": "http://localhost:9999/swagger/v1/swagger.json"
         }
       ]
     },
@@ -46,7 +46,7 @@
         {
           "Name": "Blog API",
           "Version": "v1",
-          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+          "Url": "http://localhost:9999/swagger/v1/swagger.json"
         }
       ]
     },
@@ -56,7 +56,7 @@
         {
           "Name": "Follower API",
           "Version": "v1",
-          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+          "Url": "http://localhost:9999/swagger/v1/swagger.json"
         }
       ]
     },
@@ -66,7 +66,7 @@
         {
           "Name": "Achievement API",
           "Version": "v1",
-          "URl": "http://localhost:9999/swagger/v1/swagger.json"
+          "Url": "http://localhost:9999/swagger/v1/swagger.json"
         }
       ]
     }

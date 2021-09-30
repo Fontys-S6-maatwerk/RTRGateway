@@ -2,12 +2,10 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/Achievements",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
-        }
+          "Host": "{Achievements}"
+        } 
       ],
       "UpstreamPathTemplate": "/Achievements",
       "UpstreamHttpMethod": [ "GET" ],
@@ -15,11 +13,9 @@
     },
     {
       "DownstreamPathTemplate": "/Achievements/{everything}",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Achievements}"
         }
       ],
       "UpstreamPathTemplate": "/Achievements/{everything}",

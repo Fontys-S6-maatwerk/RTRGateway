@@ -2,11 +2,9 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/Solutions",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5005
+          "Host": "{Solutions}"
         }
       ],
       "UpstreamPathTemplate": "/Solutions",
@@ -15,11 +13,9 @@
     },
     {
       "DownstreamPathTemplate": "/Solutions/{everything}",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5005
+          "Host": "{Solutions}"
         }
       ],
       "UpstreamPathTemplate": "/Solution/{everything}",

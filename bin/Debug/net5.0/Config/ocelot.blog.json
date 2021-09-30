@@ -2,11 +2,9 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/Blog",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Blogs}"
         }
       ],
       "UpstreamPathTemplate": "/Blog",
@@ -15,11 +13,9 @@
     },
     {
       "DownstreamPathTemplate": "/Blog/{everything}",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Blogs}"
         }
       ],
       "UpstreamPathTemplate": "/Blog/{everything}",

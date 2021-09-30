@@ -2,11 +2,9 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/Comments",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Comments}"
         }
       ],
       "UpstreamPathTemplate": "/Comments",
@@ -15,11 +13,9 @@
     },
     {
       "DownstreamPathTemplate": "/Comments/{everything}",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Comments}"
         }
       ],
       "UpstreamPathTemplate": "/Comments/{everything}",

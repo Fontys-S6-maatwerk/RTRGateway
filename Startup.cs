@@ -22,6 +22,8 @@ namespace RTRGateway
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOcelot();
+            services.ConfigureDownstreamHostAndPortVariables(Configuration);
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

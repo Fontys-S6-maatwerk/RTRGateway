@@ -27,7 +27,7 @@ namespace RTRGateway
                         configuration
                             .AddOcelotWithSwaggerSupport((o) =>
                             {
-                                o.Folder = "ConfigFiles";
+                                o.Folder = "Config";
                             });
                     });
                             
