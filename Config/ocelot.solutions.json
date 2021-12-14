@@ -1,18 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/Solutions",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "{Solutions}"
-        }
-      ],
-      "UpstreamPathTemplate": "/Solutions",
-      "UpstreamHttpMethod": [ "GET" ],
-      "SwaggerKey": "Solutions"
-    },
-    {
-      "DownstreamPathTemplate": "/Solutions/{everything}",
+      "DownstreamPathTemplate": "/Solution/{everything}",
       "DownstreamHostAndPorts": [
         {
           "Host": "{Solutions}"
@@ -20,7 +9,7 @@
       ],
       "UpstreamPathTemplate": "/Solution/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "SwaggerKey": "Solutions"
+      "SwaggerKey": "solutions"
     }
   ]
 }

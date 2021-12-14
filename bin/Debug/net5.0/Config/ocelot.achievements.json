@@ -9,7 +9,7 @@
       ],
       "UpstreamPathTemplate": "/Achievements",
       "UpstreamHttpMethod": [ "GET" ],
-      "SwaggerKey": "Achievements"
+      "SwaggerKey": "achievements"
     },
     {
       "DownstreamPathTemplate": "/Achievements/{everything}",
@@ -20,7 +20,7 @@
       ],
       "UpstreamPathTemplate": "/Achievements/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "SwaggerKey": "Achievements"
+      "SwaggerKey": "achievements"
     }
   ]
 }

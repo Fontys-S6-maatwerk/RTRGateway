@@ -1,17 +1,6 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/Authentication",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "{Authentication}"
-        }
-      ],
-      "UpstreamPathTemplate": "/Authentication",
-      "UpstreamHttpMethod": [ "GET" ],
-      "SwaggerKey": "Authentication"
-    },
-    {
       "DownstreamPathTemplate": "/Authentication/{everything}",
       "DownstreamHostAndPorts": [
         {
@@ -20,7 +9,7 @@
       ],
       "UpstreamPathTemplate": "/Authentication/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "SwaggerKey": "Authentication"
+      "SwaggerKey": "authentication"
     }
   ]
 }

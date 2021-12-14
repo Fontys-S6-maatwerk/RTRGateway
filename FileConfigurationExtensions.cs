@@ -9,7 +9,7 @@ namespace RTRGateway
 {
     public static class FileConfigurationExtensions
     {
-        public static IServiceCollection ConfigureDownstreamHostAndPortVariables(
+        public static IServiceCollection ConfigureOcelotRoutes(
             this IServiceCollection services,
             IConfiguration configuration)
         {

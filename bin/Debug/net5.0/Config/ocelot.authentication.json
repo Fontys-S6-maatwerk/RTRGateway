@@ -9,7 +9,7 @@
       ],
       "UpstreamPathTemplate": "/Authentication",
       "UpstreamHttpMethod": [ "GET" ],
-      "SwaggerKey": "Authentication"
+      "SwaggerKey": "authentication"
     },
     {
       "DownstreamPathTemplate": "/Authentication/{everything}",
@@ -20,7 +20,7 @@
       ],
       "UpstreamPathTemplate": "/Authentication/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "SwaggerKey": "Authentication"
+      "SwaggerKey": "authentication"
     }
   ]
 }

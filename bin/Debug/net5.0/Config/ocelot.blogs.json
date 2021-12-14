@@ -9,7 +9,7 @@
       ],
       "UpstreamPathTemplate": "/Blog",
       "UpstreamHttpMethod": [ "GET" ],
-      "SwaggerKey": "Blog"
+      "SwaggerKey": "blogs"
     },
     {
       "DownstreamPathTemplate": "/Blog/{everything}",
@@ -20,7 +20,7 @@
       ],
       "UpstreamPathTemplate": "/Blog/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "SwaggerKey": "Blog"
+      "SwaggerKey": "blogs"
     }
   ]
 }

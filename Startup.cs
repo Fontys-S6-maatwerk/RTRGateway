@@ -22,7 +22,7 @@ namespace RTRGateway
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOcelot();
-            services.ConfigureDownstreamHostAndPortVariables(Configuration);
+            services.ConfigureOcelotRoutes(Configuration);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -35,6 +35,15 @@ namespace RTRGateway
                 {
                     o.GenerateDocsForGatewayItSelf = true;
                 });
+
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder => {
+                    builder.WithOrigins("http://localhost:8080")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,9 +52,13 @@ namespace RTRGateway
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerForOcelotUI();
             }
 
-            app.UseHttpsRedirection();
+            app.UseCors();
+
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
@@ -56,10 +69,7 @@ namespace RTRGateway
                 endpoints.MapControllers();
             });
 
-            app.UseSwagger();
-
-            app.UseSwaggerForOcelotUI()
-                .UseOcelot().Wait();
+            app.UseOcelot().Wait();
         }
     }
 }

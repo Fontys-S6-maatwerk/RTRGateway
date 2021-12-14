@@ -100,9 +100,9 @@ C:\Users\tjerk\Desktop\pt-s62-api-gateway\obj\Debug\net5.0\RTRGateway.pdb
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\obj\Debug\net5.0\RTRGateway.genruntimeconfig.cache
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.achievements.json
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.authentication.json
-C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.blog.json
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.comments.json
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.followers.json
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.solutions.json
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.swaggerEndPoints.json
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.users.json
+C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.blogs.json

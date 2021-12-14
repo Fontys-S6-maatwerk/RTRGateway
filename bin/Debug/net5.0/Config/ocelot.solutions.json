@@ -9,7 +9,7 @@
       ],
       "UpstreamPathTemplate": "/Solutions",
       "UpstreamHttpMethod": [ "GET" ],
-      "SwaggerKey": "Solutions"
+      "SwaggerKey": "solutions"
     },
     {
       "DownstreamPathTemplate": "/Solutions/{everything}",
@@ -20,7 +20,7 @@
       ],
       "UpstreamPathTemplate": "/Solution/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "SwaggerKey": "Solutions"
+      "SwaggerKey": "solutions"
     }
   ]
 }
