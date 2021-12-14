@@ -1,0 +1,15 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Achievement/{everything}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{Achievements}"
+        }
+      ],
+      "UpstreamPathTemplate": "/Achievement/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "SwaggerKey": "achievements"
+    }
+  ]
+}

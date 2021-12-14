@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\RTRGateway\\RTRGateway.csproj": {}
+    "C:\\Users\\tjerk\\Desktop\\pt-s62-api-gateway\\RTRGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\RTRGateway\\RTRGateway.csproj": {
+    "C:\\Users\\tjerk\\Desktop\\pt-s62-api-gateway\\RTRGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\RTRGateway\\RTRGateway.csproj",
+        "projectUniqueName": "C:\\Users\\tjerk\\Desktop\\pt-s62-api-gateway\\RTRGateway.csproj",
         "projectName": "RTRGateway",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\RTRGateway\\RTRGateway.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\RTRGateway\\obj\\",
+        "projectPath": "C:\\Users\\tjerk\\Desktop\\pt-s62-api-gateway\\RTRGateway.csproj",
+        "packagesPath": "C:\\Users\\tjerk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tjerk\\Desktop\\pt-s62-api-gateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tjerk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -2,29 +2,25 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/Blog",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Blogs}"
         }
       ],
       "UpstreamPathTemplate": "/Blog",
       "UpstreamHttpMethod": [ "GET" ],
-      "SwaggerKey": "Blog"
+      "SwaggerKey": "blogs"
     },
     {
       "DownstreamPathTemplate": "/Blog/{everything}",
-      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9999
+          "Host": "{Blogs}"
         }
       ],
       "UpstreamPathTemplate": "/Blog/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "SwaggerKey": "Blog"
+      "SwaggerKey": "blogs"
     }
   ]
 }

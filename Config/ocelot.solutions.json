@@ -1,0 +1,15 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Solution/{everything}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{Solutions}"
+        }
+      ],
+      "UpstreamPathTemplate": "/Solution/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "SwaggerKey": "solutions"
+    }
+  ]
+}
