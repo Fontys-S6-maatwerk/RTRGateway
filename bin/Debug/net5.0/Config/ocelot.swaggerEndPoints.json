@@ -1,35 +1,15 @@
 {
   "SwaggerEndPoints": [
-    {
-      "Key": "comments",
-      "Config": [
-        {
-          "Name": "Comment API",
-          "Version": "v1",
-          "Url": "http://localhost:5004/swagger/v1/swagger.json"
-        }
-      ]
-    },
-    {
-      "Key": "solutions",
-      "Config": [
-        {
-          "Name": "Solution API",
-          "Version": "v1",
-          "Url": "http://localhost:5005/swagger/v1/swagger.json"
-        }
-      ]
-    },
-    {
-      "Key": "users",
-      "Config": [
-        {
-          "Name": "User API",
-          "Version": "v1",
-          "Url": "http://localhost:5001/swagger/v1/swagger.json"
-        }
-      ]
-    },
+    //{
+    //  "Key": "achievements",
+    //  "Config": [
+    //    {
+    //      "Name": "Achievements API",
+    //      "Version": "v1",
+    //      "Url": "http://localhost:5007/swagger/v1/swagger.json"
+    //    }
+    //  ]
+    //}
     {
       "Key": "authentication",
       "Config": [
@@ -40,13 +20,23 @@
         }
       ]
     },
+    //{
+    //  "Key": "blogs",
+    //  "Config": [
+    //    {
+    //      "Name": "Blogs API",
+    //      "Version": "v1",
+    //      "Url": "http://localhost:5003/swagger/v1/swagger.json"
+    //    }
+    //  ]
+    //},
     {
-      "Key": "blogs",
+      "Key": "comments",
       "Config": [
         {
-          "Name": "Blog API",
+          "Name": "Comments API",
           "Version": "v1",
-          "Url": "http://localhost:5003/swagger/v1/swagger.json"
+          "Url": "http://localhost:5004/swagger/v1/swagger.json"
         }
       ]
     },
@@ -54,19 +44,29 @@
       "Key": "followers",
       "Config": [
         {
-          "Name": "Follower API",
+          "Name": "Followers API",
           "Version": "v1",
           "Url": "http://localhost:5002/swagger/v1/swagger.json"
         }
       ]
     },
     {
-      "Key": "achievements",
+      "Key": "solutions",
       "Config": [
         {
-          "Name": "Achievement API",
+          "Name": "Solutions API",
           "Version": "v1",
-          "Url": "http://localhost:5007/swagger/v1/swagger.json"
+          "Url": "http://localhost:5005/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "users",
+      "Config": [
+        {
+          "Name": "Users API",
+          "Version": "v1",
+          "Url": "http://localhost:5001/swagger/v1/swagger.json"
         }
       ]
     }

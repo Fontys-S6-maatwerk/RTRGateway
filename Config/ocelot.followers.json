@@ -1,13 +1,24 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/Follower/{everything}",
+      "DownstreamPathTemplate": "/Followers/{everything}",
       "DownstreamHostAndPorts": [
         {
           "Host": "{Followers}"
         }
       ],
-      "UpstreamPathTemplate": "/Follower/{everything}",
+      "UpstreamPathTemplate": "/Followers/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "SwaggerKey": "followers"
+    },
+    {
+      "DownstreamPathTemplate": "/Followers",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{Followers}"
+        }
+      ],
+      "UpstreamPathTemplate": "/Followers",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "SwaggerKey": "followers"
     }

@@ -1,13 +1,24 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/User/{everything}",
+      "DownstreamPathTemplate": "/Users/{everything}",
       "DownstreamHostAndPorts": [
         {
           "Host": "{Users}"
         }
       ],
-      "UpstreamPathTemplate": "/User/{everything}",
+      "UpstreamPathTemplate": "/Users/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/Users",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{Users}"
+        }
+      ],
+      "UpstreamPathTemplate": "/Users",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "SwaggerKey": "users"
     }
