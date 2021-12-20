@@ -1,13 +1,24 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/Comment/{everything}",
+      "DownstreamPathTemplate": "/Comments/{everything}",
       "DownstreamHostAndPorts": [
         {
           "Host": "{Comments}"
         }
       ],
-      "UpstreamPathTemplate": "/Comment/{everything}",
+      "UpstreamPathTemplate": "/Comments/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "SwaggerKey": "comments"
+    },
+    {
+      "DownstreamPathTemplate": "/Comments",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{Comments}"
+        }
+      ],
+      "UpstreamPathTemplate": "/Comments",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "SwaggerKey": "comments"
     }

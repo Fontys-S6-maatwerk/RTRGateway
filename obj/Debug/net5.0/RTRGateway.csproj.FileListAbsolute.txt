@@ -82,7 +82,6 @@ C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\runtimes\win-x64\nati
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\tjerk\Desktop\pt-s62-api-gateway\obj\Debug\net5.0\RTRGateway.csprojAssemblyReference.cache
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\obj\Debug\net5.0\RTRGateway.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\obj\Debug\net5.0\RTRGateway.AssemblyInfoInputs.cache
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\obj\Debug\net5.0\RTRGateway.AssemblyInfo.cs
@@ -106,3 +105,4 @@ C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.solutio
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.swaggerEndPoints.json
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.users.json
 C:\Users\tjerk\Desktop\pt-s62-api-gateway\bin\Debug\net5.0\Config\ocelot.blogs.json
+C:\Users\tjerk\Desktop\pt-s62-api-gateway\obj\Debug\net5.0\RTRGateway.csproj.AssemblyReference.cache
