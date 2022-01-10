@@ -1,6 +1,6 @@
 # RTRGateway
 
-The gatweway for the RTR app consists of several seperate json files describing the incomming calls. these files get combined into an ocelot.json once executed.
+The gatewway for the RTR app consists of several seperate json files describing the incoming calls. these files get combined into an ocelot.json once executed.
 
 ## Run project
 ```
